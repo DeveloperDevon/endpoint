@@ -16,12 +16,10 @@ VITE_API_KEY=<api_key>
 ```
 
 #### Todo
-- Optimistic updates with fallback failure.
-- Todo search filtering.
-- Check all option.
+- ~~Optimistic updates with fallback failure~~.
+- ~~Debounced todo search~~.
 - Sort by:
-	- Status
-	- Date
-	- Description
-- Show status labels option.
-- Dark mode?
+	- ~~Status~~
+	- ~~Date~~
+	- ~~Description~~
+- ~~Color legend~~.

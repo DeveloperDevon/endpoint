@@ -1,1 +1,2 @@
-export * from './Todo.type.ts'
+export * from './LegendItem.type'
+export * from './Todo.type'

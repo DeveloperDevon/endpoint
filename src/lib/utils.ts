@@ -1,6 +1,6 @@
 import { Todo } from "./types";
 
-const sortByDate = (todos: Todo[]): Todo[] => todos.sort((a, b) => {
+export const sortByDate = (todos: Todo[]): Todo[] => todos.sort((a, b) => {
   if (!a.dueDate && !b.dueDate) return 0
   if (!a.dueDate) return 1
   if (!b.dueDate) return -1
@@ -11,7 +11,7 @@ const sortByDate = (todos: Todo[]): Todo[] => todos.sort((a, b) => {
   return dateA.getTime() - dateB.getTime()
 })
 
-export const sortByGroup = (todos: Todo[]) => {
+export const sortByStatus = (todos: Todo[]) => {
   const now = Date.now()
   const overdue: Todo[] = []
   const normal: Todo[] = []

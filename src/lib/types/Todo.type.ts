@@ -5,3 +5,5 @@ export type Todo = {
   dueDate?: Date
   isOverdue?: boolean
 }
+
+export type SortTodoBy = 'Status' | 'Date' | 'Description'
